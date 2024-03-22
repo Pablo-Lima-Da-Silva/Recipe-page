@@ -9,7 +9,7 @@ module.exports = {
         'rose-white': '#fff5fa',
         'eggshell': '#f3e6d8',
         'light-grey': '#e4ded8',
-        'wenge-brown': '5f574e',
+        'wenge-brown': '#5f574e',
         'dark-charcoal': '#302d2c',
       },
     },

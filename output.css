@@ -597,9 +597,9 @@ video {
   border-radius: 0.75rem;
 }
 
-.bg-dark-raspberry {
+.bg-wenge-brown {
   --tw-bg-opacity: 1;
-  background-color: rgb(123 40 79 / var(--tw-bg-opacity));
+  background-color: rgb(95 87 78 / var(--tw-bg-opacity));
 }
 
 .px-10 {
