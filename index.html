@@ -12,25 +12,38 @@
 
   <!--TailWindCSS-->
   <link rel="stylesheet" href="output.css" />
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
 </head>
 
 <body class="bg-eggshell">
   <div
-    class="bg-rose-white w-2/4 grid grid-cols-1 justify-center justify-items-center py-10 px-10 m-auto my-10 rounded-xl">
+    class="bg-rose-white w-2/4 grid grid-cols-1 justify-center justify-items-center py-10 px-10 m-auto my-10 rounded-xl h-screen">
     <div class="w-full pb-10">
       <img src="assets/images/image-omelette.jpeg" alt="image-omelette" class="rounded-md" />
     </div>
     <div class="grid grid-cols-1 justify-start justify-items-start pb-10">
-      <h2 class="pb-3 text-4xl font">
+      <h2 class="pb-3 text-4xl font-Young-Serif font-bold">
         <b>Simple Omelette Recipe</b>
       </h2>
-      <p class="outfit font-normal text-wenge-brown text-sm">
+      <p class="font-Outfit font-medium text-wenge-brown text-sm">
         An easy and quick dish, perfect for any meal. This classic omelette
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
     </div>
-    <div class="grid grid-cols-1 justify-start justify-items-start w-full bg-dark-raspberry/5 rounded-md py-5 px-5">
+    <div
+      class="grid grid-cols-1 justify-start justify-items-start w-full bg-dark-raspberry/5 rounded-md py-5 px-5 font-Outfit">
       <h1 class="text-dark-raspberry font-bold">Preparation time</h1>
       <ul class="list-disc text-dark-raspberry pl-5">
         <li class="py-3">
@@ -47,8 +60,8 @@
       </ul>
     </div>
     <div
-      class="grid grid-cols-1 justify-start justify-items-start w-full pt-10 border-b-2 border-solid border-grey">
-      <h1 class="text-Nutmeg font-bold text-2xl">Ingredients</h1>
+      class="grid grid-cols-1 justify-start justify-items-start w-full pt-10 border-b-2 border-solid border-wenge-brown">
+      <h1 class="text-Nutmeg font-bold text-2xl font-Young-Serif">Ingredients</h1>
       <ul class="list-disc text-Nutmeg pl-5">
         <li class="py-3">
           <span class="text-wenge-brown">2-3 large eggs</span>
@@ -62,18 +75,80 @@
         <li class="pb-3">
           <span class="text-wenge-brown">1 tablespoon of butter or oil</span>
         </li>
-        <li>
+        <li class="pb-3">
           <span class="text-wenge-brown">Optional fillings: cheese, diced vegetables, cooked meats,
             herbs</span>
         </li>
       </ul>
     </div>
+    <div
+      class="grid grid-cols-1 justify-start justify-items-start w-full pt-10 border-b-2 border-solid border-wenge-brown">
+      <h1 class="text-Nutmeg font-bold text-2xl font-Young-Serif">Instructions</h1>
+      <ul class="text-Nutmeg pl-5">
+        <li class="py-3">
+          <span class="text-Nutmeg">1.</span> <span class="text-wenge-brown"><b>Beat the eggs:</b></span> <span
+            class="text-wenge-brown">In a bowl, beat
+            the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.</span>
+        </li>
+        <li class="pb-3">
+          <span class="text-Nutmeg">2.</span> <span class="text-wenge-brown"><b>Heat the pan:</b></span> <span
+            class="text-wenge-brown">Place a non-stick frying pan over medium heat and add butter or oil.</span>
+        </li>
+        <li class="pb-3">
+          <span class="text-Nutmeg">3.</span> <span class="text-wenge-brown"><b>Cook the omelette:</b></span> <span
+            class="text-wenge-brown">Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            the eggs evenly coat the surface.</span>
+        </li>
+        <li class="pb-3">
+          <span class="text-Nutmeg">4.</span> <span class="text-wenge-brown"><b>Add fillings (optional):</b></span>
+          <span class="text-wenge-brown">When the eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.</span>
+        </li>
+        <li class="pb-3">
+          <span class="text-Nutmeg">5.</span> <span class="text-wenge-brown"><b>Fold and serve:</b></span> <span
+            class="text-wenge-brown">As the omelette continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a plate.</span>
+        </li>
+        <li class="pb-3">
+          <span class="text-Nutmeg">6.</span> <span class="text-wenge-brown"><b>Enjoy:</b></span> <span
+            class="text-wenge-brown">Serve hot, with additional salt and pepper if needed.</span>
+        </li>
+      </ul>
+    </div>
+    <div class="grid grid-cols-1 justify-start justify-items-start w-full pt-10">
+      <h1 class="pb-3 font-Young-Serif text-Nutmeg text-2xl">Nutrition</h1>
+      <p class="pb-3 text-wenge-brown font-Outfit text-sm">The table below shows nutritional values per serving without
+        the
+        additional fillings.
+      </p>
+      <table class="h-full w-full py-3 px-3">
+        <tbody>
+          <tr>
+            <td class="text-wenge-brown py-3">Calories</td>
+            <td class="text-Nutmeg"><b>277kcal</b></td>
+          </tr>
+          <tr>
+            <td class="text-wenge-brown">Carbs</td>
+            <td class="text-Nutmeg"><b>0g</b></td>
+          </tr>
+          <tr>
+            <td class="text-wenge-brown py-3">Protein</td>
+            <td class="text-Nutmeg"><b>20g</b></td>
+          </tr>
+          <tr>
+            <td class="text-wenge-brown">Fat</td>
+            <td class="text-Nutmeg"><b>22g</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-
   <div class="attribution">
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-      href="#">Pablo Silva</a>.
+      href="https://github.com/Pablo-Lima-Da-Silva/">Pablo
+      Silva</a>.
   </div>
 </body>
 

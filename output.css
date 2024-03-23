@@ -597,21 +597,12 @@ video {
   border-radius: 0.75rem;
 }
 
-.border-b-8 {
-  border-bottom-width: 8px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
 .border-solid {
   border-style: solid;
-}
-
-.border-light-grey {
-  --tw-border-opacity: 1;
-  border-color: rgb(228 222 216 / var(--tw-border-opacity));
 }
 
 .bg-dark-raspberry\/5 {
@@ -669,6 +660,15 @@ video {
   padding-top: 2.5rem;
 }
 
+.font-Young-Serif {
+  font-family: Young-Serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -677,16 +677,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -699,6 +689,11 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.text-Nutmeg {
+  --tw-text-opacity: 1;
+  color: rgb(133 70 50 / var(--tw-text-opacity));
 }
 
 .text-dark-charcoal {
@@ -716,7 +711,8 @@ video {
   color: rgb(95 87 78 / var(--tw-text-opacity));
 }
 
-.text-Nutmeg {
-  --tw-text-opacity: 1;
-  color: rgb(133 70 50 / var(--tw-text-opacity));
+@font-face {
+  font-family: "Young-Serif";
+
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf");
 }

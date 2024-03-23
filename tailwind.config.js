@@ -12,6 +12,10 @@ module.exports = {
         'wenge-brown': '#5f574e',
         'dark-charcoal': '#302d2c',
       },
+      fontFamily: {
+        'Young-Serif': ['Young-Serif'],
+        'Outfit': ['Outfit'],
+      },
     },
   },
   plugins: [],

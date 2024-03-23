@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Young-Serif", "Outfit";
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf"),
+         url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("ttf");
+}
